@@ -23,5 +23,3 @@ while True:
     elif choice == 'n':
         print('У вас %d очков и вы закончили игру.' %count)
         break
-
-print('До новых встреч!')
