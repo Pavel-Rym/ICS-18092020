@@ -1,5 +1,3 @@
-import fractions
-
 print("Калькулятор на Python. (!!!)Лише цілі числа(!!!)")
 n1 = int(input('Введіть перше число: '))
 n2 = int(input('Введіть друге число: '))
@@ -24,9 +22,7 @@ elif operation == 3:
     print('Отримуємо число', r)
 elif operation == 4:
     print('Отримуємо число', r)
-
 else:
     print (r)
 
         
-
