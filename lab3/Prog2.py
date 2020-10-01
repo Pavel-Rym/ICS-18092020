@@ -24,7 +24,6 @@ elif operation == 3:
     print('Отримуємо число', r)
 elif operation == 4:
     print('Отримуємо число', r)
-
 else:
     print (r)
 
