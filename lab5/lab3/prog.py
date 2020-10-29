@@ -39,8 +39,18 @@ with io.open('D:\Study\ICS-18.09.2020\lab5\lab3\list1.txt', encoding='utf-8') as
 #Пошук файлів у каталозі
 
 import os
-    for root, dirs, files in os.walk('D:\Study\ICS-18.09.2020\lab5\lab3\'):
+
+for root, dirs, files in os.walk('D:\Study\ICS-18.09.2020\lab5\lab3\'):
         for file in files:
             if file.endswith(".csv"):
                 path_file = os.path.join(root,file)
                 print(path_file)
+
+
+#Сортування за середнім балом 
+
+with open("D:\Study\ICS-18.09.2020\lab5\lab3\list1.txt") as file:
+    lines = file.readlines()
+    lines.sort(key=lambda line: int(line.split(' -> ')[0]))
+
+print(lines)
