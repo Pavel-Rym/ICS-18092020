@@ -1,4 +1,4 @@
-Ivan, 54
-Sasha, 33
-Oleksiy, 67
-Pavel, 77
+Arseniy, 54
+Jarik, 56
+Vlad, 73
+Oleksiy, 33
